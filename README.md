@@ -37,4 +37,26 @@ Evaluation Metric - <i> F1 Score </i>
     <li> Threshold analysis for classification due to low event rate </li> 
   </ul> 
   </ol>
+
+<h2> Results and Observations : </h2> 
+<ul> 
+  <li> Baseline Logistic Model has f1-score of 0.15 for event_rate = 08.517% </li>
+  <li> Able to achieve 0.49 from just Bagging methods and some feature engineering </li>
+  From the following graphs you can see feature engineering worked, all high importance features (Information values & Random Forest Feature Importance ) are derived features.
+  <img src="IV1.png" alt="Top-20 High IV Variables " width="42" height="42" align="middle" >
+  <img src="RF1.png" alt="Top-20 High RF important Variables " width="42" height="42" align="middle" >
+  
+  Following graph saw the performance improvement over approaches:- 
+  <img src="Modeltrack.png" alt="Model Performance over approaches " width="42" height="42" align="middle" >
+  
+<h2> Things to try in future : </h2>
+<ul> 
+  <li> Boosting Methods </li>
+  <li> Oversampling & Undersampling Methods </li>
+  <li> AutoML pipeline (TPOT is a Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming)</li>
+  <li> Polynomial and Domain specific Feature Engineering </li> 
+  <li> Commonality identification of target population </li>
+  <li> Labels remediation by understanding wrongly classified predictions </li>
+  </ul>
+  
   
