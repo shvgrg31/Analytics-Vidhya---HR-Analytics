@@ -44,13 +44,17 @@ Evaluation Metric - <i> F1 Score </i>
   <li> Able to achieve 0.49 from just Bagging methods and some feature engineering </li>
   From the following graphs you can see feature engineering worked, all high importance features (Information values & Random Forest Feature Importance ) are derived features.
   
-  <img src="IV1.png" alt="Top-20 High IV Variables" align="middle" >
   
-  <img src="RF1.png" alt="Top-20 High RF important Variables" align="middle" >
+  
+  
+  <img src="IV1.png" alt="Top-20 High IV Variables"  >
+  
+  <img src="RF1.png" alt="Top-20 High RF important Variables"  >
   
   Following graph saw the performance improvement over approaches:- 
   
-  <img src="Modeltrack.png" alt="Model Performance over approaches " width="42" height="42" align="middle" >
+  <img src="Modeltrack.png" alt="Model Performance over approaches"  >
+  
   
 <h2> Things to try in future : </h2>
 <ul> 
